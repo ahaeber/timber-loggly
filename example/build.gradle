@@ -5,11 +5,12 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.github.tony19.timber.loggly"
+        applicationId "com.github.jdsingh.timber.loggly"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        buildConfigField "String", "LOGGLY_TOKEN", "\"${loggly_token}\""
     }
     buildTypes {
         release {

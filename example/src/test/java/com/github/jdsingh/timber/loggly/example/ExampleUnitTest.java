@@ -1,4 +1,4 @@
-package com.github.tony19.timber.loggly.example;
+package com.github.jdsingh.timber.loggly.example;
 
 import org.junit.Test;
 
