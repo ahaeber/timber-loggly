@@ -1,4 +1,5 @@
-<h1>timber-loggly <sup>v2.0</sup>
+## timber-loggly v2.0
+
 
 A [Timber][2] tree for asynchronously posting log messages to [Loggly][1].
 
@@ -37,24 +38,26 @@ Step 1. Add the JitPack repository to your build file
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
 Step 2. Add the dependency
 
 ```
 dependencies {
-	        compile 'com.github.jdsingh:timber-loggly:v2.0'
-	}
+    compile 'com.github.jdsingh:timber-loggly:v2.0'
+}
 ```
 
 #### Gradle
 
+```
 compile 'com.github.jdsingh:timber-loggly:v2.0'
+```
 
 [1]: http://loggly.com
 [2]: https://github.com/JakeWharton/timber
